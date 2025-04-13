@@ -31,6 +31,7 @@
                 <li class="sidebar-item">
                     <a href="http://qlhs/Trangchu" class="sidebar-link">
                         <i class="fa-solid fa-house"></i>
+                        
                         <span>Trang chủ</span>
                     </a>
                 </li> 
