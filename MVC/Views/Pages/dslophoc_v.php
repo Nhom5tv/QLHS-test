@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="http://QLHS - test/Public/CSS/styleDT.css">
     <style >
         .btn_cn {
             display: flex;
@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <form method="post" action="http://qlhs/dslophoc/timkiem"></form>
+    <form method="post" action="http://QLHS - test/dslophoc/timkiem"></form>
     <main class="table" id="customers_table">
         <section class="table__header">
             <h1>Quản lý Đăng Ký Lớp Học</h1>
            
             <div class="input-group"> 
-            <form action="http://qlhs/dslophoc/timkiem" method="post">         
+            <form action="http://QLHS - test/dslophoc/timkiem" method="post">         
                 <input type="search" placeholder="Mã Môn Học" name="txtTimkiemmamon" value="<?php if(isset($data['ma_mon'])) echo $data['ma_mon']?>">
                                              
             </div>
@@ -36,13 +36,13 @@
             <button style="border: none; background: transparent;" type="submit" name="btnTimkiemlop"><i class="fa fa-search" ></i></button>
             </form>
             <div class="Insert">
-                <form action="http://qlhs/lophoc" method="post">
+                <form action="http://QLHS - test/lophoc" method="post">
                 <button class="button-85" role="button">Thêm Lớp Học</button>
                 </form>
             
             </div>
             <div >
-                <!-- <form action="http://qlhs/dslophoc/timkiem" method="post">
+                <!-- <form action="http://QLHS - test/dslophoc/timkiem" method="post">
                     <button type="submit" class="button-85" name="btnXuatExcel2">Xuất Excel</button>
                 </form> -->
             
@@ -83,7 +83,7 @@
                                            
                                            
                                             <td class="btn_cn">
-                                            <form action="http://qlhs/dslophoc/sua/<?php echo $row['ma_lop']?>" method="post">
+                                            <form action="http://QLHS - test/dslophoc/sua/<?php echo $row['ma_lop']?>" method="post">
                                                 <button class="button-85"  role="button">Sửa</button> &nbsp;
                                                                                 </td>
                                         </tr>

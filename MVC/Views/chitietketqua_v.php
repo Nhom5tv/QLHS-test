@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kết quả học tập</title>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/style.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="http://QLHS - test/Public/CSS/styleDT.css?v=<?php echo time(); ?>">
     <style>
         .btn_cn {
             display: flex;
@@ -23,12 +23,12 @@
     <main class="table">
         <!-- <section class="table__header">
             <div class="input-group">
-                <form action="http://qlhs/DSSinhvien/timkiem" method="post">
+                <form action="http://QLHS - test/DSSinhvien/timkiem" method="post">
                     <input type="search" placeholder="Mã sinh viên" name="txtTimkiemMaSV" value="<?php echo $_POST['txtTimkiemMaSV'] ?? ''; ?>">
                 </form>
             </div>
             <div class="input-group">
-                <form action="http://qlhs/DSSinhvien/timkiem" method="post">
+                <form action="http://QLHS - test/DSSinhvien/timkiem" method="post">
                     <input type="search" placeholder="Mã môn học" name="txtTimkiemMaMon" value="<?php echo $_POST['txtTimkiemMaMon'] ?? ''; ?>">
                 </form>
             </div>
@@ -64,7 +64,7 @@
                                     <td><?php echo $row['diem_giua_ky']; ?></td>
                                     <td><?php echo $row['diem_cuoi_ky']; ?></td>
                                     <td class="btn_cn">
-                                        <form action="http://qlhs/DSSinhvien/sua/<?php echo $row['ma_dct']; ?>" method="post">
+                                        <form action="http://QLHS - test/DSSinhvien/sua/<?php echo $row['ma_dct']; ?>" method="post">
                                             <button class="button-85" role="button">Sửa</button>
                                         </form> 
                                     </td>

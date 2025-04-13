@@ -34,7 +34,7 @@ class DSKhoanthusv extends controller {
             if ($kq1) {
                 echo '<script>
                     alert("Khoản thu đã tồn tại");
-                    window.location.href = "http://QLHS/DSKhoanthusv";
+                    window.location.href = "http://QLHS - test/DSKhoanthusv";
                     </script>';
                 exit();
             } else {
@@ -43,7 +43,7 @@ class DSKhoanthusv extends controller {
                 if ($kq) {
                     echo '<script>
                         alert("Thêm mới khoản thu thành công");
-                        window.location.href = "http://QLHS/DSKhoanthusv";
+                        window.location.href = "http://QLHS - test/DSKhoanthusv";
                     </script>';
                     exit();
                 } else {
@@ -188,7 +188,7 @@ class DSKhoanthusv extends controller {
             if ($kq) {
                 echo '<script>
                         alert("Xóa thành công");
-                        window.location.href = "http://QLHS/DSKhoanthusv";
+                        window.location.href = "http://QLHS - test/DSKhoanthusv";
                       </script>';
                 exit();
             } else {

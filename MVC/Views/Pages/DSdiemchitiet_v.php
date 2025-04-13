@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css?v=<?php echo time();?>">
-    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/button.css?v=<?php echo time();?>">
+    <link rel="stylesheet" type="text/css" href="http://QLHS - test/Public/CSS/styleDT.css">
     <style >
         .btn_cn {
             display: flex;
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!-- <form method="post" action="http://qlhs/DSTaikhoan/timkiem"></form> -->
+    <!-- <form method="post" action="http://QLHS - test/DSTaikhoan/timkiem"></form> -->
     <main class="table" id="customers_table">
     <section class="table__header">
         </section>

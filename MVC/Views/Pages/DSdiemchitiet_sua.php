@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sửa Điểm Chi Tiết</title>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
     <!-- Form sửa điểm chi tiết -->
-    <form method="post" action="http://qlhs/DSdiemtungmon_gv/suadl">
+    <form method="post" action="http://QLHS - test/DSdiemtungmon_gv/suadl">
         <div class="content">
             <?php
             // Kiểm tra xem dữ liệu có tồn tại

@@ -36,7 +36,7 @@ class Doimatkhau extends controller{
                     $kq=$this->doimk->doimatkhau($email,$mk1);
                     if($kq){
                         echo'<script>alert("Đổi mật khẩu thành công");
-                        window.location.href = "http://QLHS/Login";
+                        window.location.href = "http://QLHS - test/Login";
                         </script>';
                     }
                    

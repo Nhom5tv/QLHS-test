@@ -32,7 +32,7 @@ class Khoa extends controller{
                 if ($kq) {
                     echo '<script>
                         alert("Thêm mới thành công");
-                        window.location.href = "http://qlhs/DSKhoa";
+                        window.location.href = "http://QLHS - test/DSKhoa";
                     </script>';
                 } else {
                     echo '<script>alert("Thêm mới thất bại")</script>';

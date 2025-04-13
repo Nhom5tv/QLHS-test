@@ -11,7 +11,7 @@
             padding-top: 5px;
         }
     </style>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <form id="myForm" method="post" action="./Monhoc/themmoi">
@@ -64,7 +64,7 @@
                 
                 
                 <div class="quaylai">
-                    <a href="http://qlhs/DSMonhoc">Quay lại</a>
+                    <a href="http://QLHS - test/DSMonhoc">Quay lại</a>
                 </div>
 
             </div>

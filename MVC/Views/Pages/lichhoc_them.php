@@ -11,7 +11,7 @@
     padding-top: 5px;
 }
     </style>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css">
 </head>
 <body>
     <form id="myForm" method="post" action="./lichhoc/themmoi">
@@ -86,7 +86,7 @@ WHERE ma_mon NOT IN (
                  <button type="submit" class="btn" name="btnLuu">Lưu</button>
                 <br>
                 <div class="quaylai">
-                <a href="http://qlhs/dslichhoc">Quay lại</a>
+                <a href="http://QLHS - test/dslichhoc">Quay lại</a>
                 </div>
                
                 </div>

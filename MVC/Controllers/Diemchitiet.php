@@ -36,7 +36,7 @@ class Diemchitiet extends controller {
             // if ($kq1) {
             //     echo '<script>
             //         alert("Trùng dữ liệu điểm chi tiết (ID sinh viên, lần học, lần thi đã tồn tại)");
-            //         window.location.href = "http://qlhs/Diemchitiet";
+            //         window.location.href = "http://QLHS - test/Diemchitiet";
             //     </script>';
             //     exit();
             // }
@@ -49,7 +49,7 @@ class Diemchitiet extends controller {
                 // $dsdiem->capNhatDiemTongHop();
                 echo '<script>
                     alert("Thêm mới điểm chi tiết thành công");
-                    window.location.href = "http://qlhs/DSdiemchitiet";
+                    window.location.href = "http://QLHS - test/DSdiemchitiet";
                 </script>';
                 exit();
             } else {

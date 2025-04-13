@@ -39,7 +39,7 @@ class DSMiengiam extends controller {
                 // Nếu trùng, thông báo lỗi
                 echo '<script>
                     alert("Mã sinh viên và loại miễn giảm đã tồn tại");
-                    window.location.href = "http://QLHS/DSMiengiam";
+                    window.location.href = "http://QLHS - test/DSMiengiam";
                     </script>';
                 exit();  // Dừng lại ngay sau khi thông báo lỗi
             } else {
@@ -50,7 +50,7 @@ class DSMiengiam extends controller {
                     // Nếu thành công, thông báo và chuyển hướng
                     echo '<script>
                         alert("Thêm mới miễn giảm thành công");
-                        window.location.href = "http://QLHS/DSMiengiam";
+                        window.location.href = "http://QLHS - test/DSMiengiam";
                     </script>';
                     exit();  // Dừng lại sau khi redirect
                 } else {
@@ -196,7 +196,7 @@ class DSMiengiam extends controller {
         if ($kq) {
             echo '<script>
                     alert("Xóa thành công");
-                    window.location.href = "http://QLHS/DSMiengiam";
+                    window.location.href = "http://QLHS - test/DSMiengiam";
                   </script>';
             exit();
         } else {

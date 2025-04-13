@@ -45,7 +45,7 @@ class Svdktinchi extends controller{
     
                 echo '<script>
                         alert("Đăng Ký thành công");
-                        window.location.href = "http://QLHS/SVdktinchi";
+                        window.location.href = "http://QLHS - test/SVdktinchi";
                       </script>';
                 exit();
             } else {
@@ -63,7 +63,7 @@ class Svdktinchi extends controller{
         if($kq){
             echo '<script>
             alert("Xóa thành công");
-            window.location.href = "http://qlhs/SVdktinchi";
+            window.location.href = "http://QLHS - test/SVdktinchi";
                 </script>';
     exit();
         }

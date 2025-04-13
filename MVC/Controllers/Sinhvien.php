@@ -39,7 +39,7 @@ class Sinhvien extends controller{
                 if ($kq) {
                     echo '<script>
                         alert("Thêm mới thành công");
-                        window.location.href = "http://qlhs/DSSinhvien";
+                        window.location.href = "http://QLHS - test/DSSinhvien";
                     </script>';
                 } else {
                     echo '<script>alert("Thêm mới thất bại")</script>';

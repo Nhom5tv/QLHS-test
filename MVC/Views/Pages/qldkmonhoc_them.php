@@ -11,7 +11,7 @@
     padding-top: 5px;
 }
     </style>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css">
 </head>
 <body>
     <form id="myForm" method="post" action="./qldkmonhoc/themmoi">
@@ -96,7 +96,7 @@ if ($conn->connect_error) {
                 <button type="submit" class="btn" name="btnLuu">Lưu</button>
                 <br>
                 <div class="quaylai">
-                <a href="http://qlhs/dsmonhoc">Quay lại</a>
+                <a href="http://QLHS - test/dsmonhoc">Quay lại</a>
                 </div>
                 
                 

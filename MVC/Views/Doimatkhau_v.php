@@ -2,7 +2,7 @@
 if(session_id()=='') session_start();
 if(isset($_SESSION['Id'])== false){
     echo'<script>alert("Chưa đăng ký tài khoản");
-    window.location.href = "http://QLHS/Dangky";
+    window.location.href = "http://QLHS - test/Dangky";
     </script>';    
 }
 $email=$_SESSION['Email'];
@@ -13,7 +13,7 @@ $email=$_SESSION['Email'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <link rel="stylesheet" href="http://QLHS/Public/CSS/login.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/login.css?v=<?php echo time();?>">
     
     <style>
         .content{
@@ -43,28 +43,28 @@ $email=$_SESSION['Email'];
                  
                 <div class="input-box">
                     <span class="icon">
-                        <img src="http://QLHS/Public/Picture/Pic_login/email.png" alt="" width="15px">
+                        <img src="http://QLHS - test/Public/Picture/Pic_login/email.png" alt="" width="15px">
                     </span>
                     <input style="padding-left: 50px;" type="email" name="txtEmaildky" value="<?php echo $email ?>" readonly>
                     <label>Email</label>
                 </div>
                 <div class="input-box">
                     <span class="icon">
-                    <img src="http://QLHS/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
+                    <img src="http://QLHS - test/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
                     </span>
                     <input type="password" required name="txtMatkhaucu">
                     <label>Password</label>
                 </div>
                 <div class="input-box">
                     <span class="icon">
-                    <img src="http://QLHS/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
+                    <img src="http://QLHS - test/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
                     </span>
                     <input type="password" required name="txtMatkhaulan1">
                     <label>Password</label>
                 </div>
                 <div class="input-box">
                     <span class="icon">
-                    <img src="http://QLHS/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
+                    <img src="http://QLHS - test/Public/Picture/Pic_login/khoa.png" alt="" width="15px">
                     </span>
                     <input type="password" required name="txtMatkhaulan2">
                     <label>Nhập lại password</label>

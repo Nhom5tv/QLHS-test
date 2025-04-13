@@ -37,7 +37,7 @@
         if($kq){
             echo '<script>
             alert("Xóa thành công");
-            window.location.href = "http://qlhs/dslophoc";
+            window.location.href = "http://QLHS - test/dslophoc";
                 </script>';
     exit();
         }
@@ -67,7 +67,7 @@
             $kq=$this->dslh->lophoc_upd($ma_lop,$ma_nganh,$hoc_ky,$ma_giang_vien,$lich_hoc,$trang_thai);
             if($kq){
                 echo'<script>alert("Sửa thành công")
-                window.location.href = "http://qlhs/dslophoc";
+                window.location.href = "http://QLHS - test/dslophoc";
                 </script>';
             }
             else{

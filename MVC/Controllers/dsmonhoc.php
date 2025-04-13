@@ -140,7 +140,7 @@ class DSmonhoc extends controller {
         if ($kq) {
             echo '<script>
                     alert("Xóa thành công");
-                    window.location.href = "http://qlhs/DSmonhoc";
+                    window.location.href = "http://QLHS - test/DSmonhoc";
                   </script>';
             exit();
         } else {

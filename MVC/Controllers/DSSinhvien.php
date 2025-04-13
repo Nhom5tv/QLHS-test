@@ -213,7 +213,7 @@ $rowNumber++;
         if ($kq) {
             echo '<script>
                 alert("Xóa thành công");
-                window.location.href = "http://qlhs/DSSinhvien";
+                window.location.href = "http://QLHS - test/DSSinhvien";
             </script>';
             exit();
         } else {
@@ -255,7 +255,7 @@ $rowNumber++;
             if ($kq) {
                 echo '<script>
                     alert("Sửa thành công");
-                    window.location.href = "http://qlhs/DSSinhvien";
+                    window.location.href = "http://QLHS - test/DSSinhvien";
                 </script>';
             } else {
                 echo '<script>alert("Sửa thất bại")</script>';

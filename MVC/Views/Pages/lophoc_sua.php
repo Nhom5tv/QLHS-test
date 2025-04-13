@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css">
 </head>
 <body>
-    <form method="post" action="http://qlhs/dslophoc/suadl">
+    <form method="post" action="http://QLHS - test/dslophoc/suadl">
     <div class="content">
     <?php
             if (isset($data['dulieu']) && mysqli_num_rows($data['dulieu'])>0){
@@ -60,7 +60,7 @@
 <button type="submit" class="btn" name="btnLuu">Lưu</button>
 <br>
                 <div class="quaylai">
-                <a href="http://QLHS/dslophoc">Quay lại</a>
+                <a href="http://QLHS - test/dslophoc">Quay lại</a>
                 </div>
                 
                 </div>

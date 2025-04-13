@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thêm Sinh Viên</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css?v=<?php echo time();?>">
-    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/button.css?v=<?php echo time();?>">
+    <link rel="stylesheet" type="text/css" href="http://QLHS - test/Public/CSS/styleDT.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -82,7 +82,7 @@
 <body>
     <main>
         <h1 style="text-align: center; color: #333;">Thêm Giảng Viên</h1>
-        <form action="http://qlhs/Giangvien/themmoi" method="post">
+        <form action="http://QLHS - test/Giangvien/themmoi" method="post">
             <div class="form-container">
                 <div class="input-group">
                     <label for="ma_giang_vien">Mã Giảng Viên</label>
@@ -129,7 +129,7 @@
             <button type="submit" class="btn" name="btnLuu">Lưu</button>
             <br>
                 <div class="quaylai">
-                <a href="http://qlhs/DSGiangvien">Quay lại</a>
+                <a href="http://QLHS - test/DSGiangvien">Quay lại</a>
                 </div>
 
 

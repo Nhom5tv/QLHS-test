@@ -34,12 +34,12 @@
                 if ($result) {
                     echo '<script>
                         alert("Thêm mới thành công, đã cập nhật mã lớp và chèn dữ liệu vào bảng điểm chi tiết!");
-                        window.location.href = "http://qlhs/lophoc";
+                        window.location.href = "http://QLHS - test/lophoc";
                         </script>';
                 } else {
                     echo '<script>
                         alert("Thêm mới thành công, đã cập nhật mã lớp nhưng không có dữ liệu để chèn vào bảng điểm chi tiết!");
-                        window.location.href = "http://qlhs/lophoc";
+                        window.location.href = "http://QLHS - test/lophoc";
                         </script>';
                 }
                 exit(); // Thoát sau khi hiển thị thông báo

@@ -9,10 +9,10 @@
     <title>quản lý hồ sơ sinh viên</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="http://qlhs/Public/Picture/favicon.png" type="image/png">
+    <link rel="icon" href="http://QLHS - test/Public/Picture/favicon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet"  href="http://qlhs/Public/CSS/layout.css?v=<?php echo time();?>">
+    <link rel="stylesheet"  href="http://QLHS - test/Public/CSS/layout.css?v=<?php echo time();?>">
     
 </head>
 
@@ -29,7 +29,7 @@
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a href="http://qlhs/Trangchu" class="sidebar-link">
+                    <a href="http://QLHS - test/Trangchu" class="sidebar-link">
                         <i class="fa-solid fa-house"></i>
                         
                         <span>Trang chủ</span>
@@ -44,21 +44,21 @@
                     <ul id="QLTK" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSTaikhoan" class="sidebar-link">Quản lý tài khoản</a>
+                            <a href="http://QLHS - test/DSTaikhoan" class="sidebar-link">Quản lý tài khoản</a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSGiangvien" class="sidebar-link">Quản lý giảng viên</a>
+                            <a href="http://QLHS - test/DSGiangvien" class="sidebar-link">Quản lý giảng viên</a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSSinhvien" class="sidebar-link">Quản lý sinh viên</a>
+                            <a href="http://QLHS - test/DSSinhvien" class="sidebar-link">Quản lý sinh viên</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSKhoa" class="sidebar-link">Quản lý khoa</a>
+                            <a href="http://QLHS - test/DSKhoa" class="sidebar-link">Quản lý khoa</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSNganh" class="sidebar-link">Quản lý ngành</a>
+                            <a href="http://QLHS - test/DSNganh" class="sidebar-link">Quản lý ngành</a>
                         </li>
                     </ul>
                 </li>
@@ -75,18 +75,18 @@
                     <ul id="QLHPTC" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSKhoanthu" class="sidebar-link">Quản lý khoản thu chung</a>
+                            <a href="http://QLHS - test/DSKhoanthu" class="sidebar-link">Quản lý khoản thu chung</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSKhoanthusv" class="sidebar-link">Quản lý khoản thu sinh viên</a>
-                        </li>
-
-                        <li class="sidebar-item">
-                            <a href="http://QLHS/DSMiengiam" class="sidebar-link">Quản lý miễn giảm</a>
+                            <a href="http://QLHS - test/DSKhoanthusv" class="sidebar-link">Quản lý khoản thu sinh viên</a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/DSHoadon" class="sidebar-link">Quản lý hóa đơn</a>
+                            <a href="http://QLHS - test/DSMiengiam" class="sidebar-link">Quản lý miễn giảm</a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a href="http://QLHS - test/DSHoadon" class="sidebar-link">Quản lý hóa đơn</a>
                         </li>
 
                        
@@ -101,19 +101,19 @@
                     <ul id="QLHT" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/dsdkmonhoc" class="sidebar-link">Danh sách đăng ký môn học</a>
+                            <a href="http://QLHS - test/dsdkmonhoc" class="sidebar-link">Danh sách đăng ký môn học</a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/dslichhoc" class="sidebar-link">Quản lý lịch học</a>
+                            <a href="http://QLHS - test/dslichhoc" class="sidebar-link">Quản lý lịch học</a>
                         </li>
 
                         <li class="sidebar-item">
-                            <a href="http://QLHS/dslophoc" class="sidebar-link">Quản lý lớp học</a>
+                            <a href="http://QLHS - test/dslophoc" class="sidebar-link">Quản lý lớp học</a>
                         </li>
                         
                         <li class="sidebar-item">
-                            <a href="http://QLHS/dsmonhoc" class="sidebar-link">Quản lý môn học</a>
+                            <a href="http://QLHS - test/dsmonhoc" class="sidebar-link">Quản lý môn học</a>
                         </li>
                     </ul>
                 </li>
@@ -125,7 +125,7 @@
             </ul>
             <!-- ảnh nhẫn menu -->
             <div class="sidebar-footer">
-                <a href="http://qlhs/Login/logout" class="sidebar-link">
+                <a href="http://QLHS - test/Login/logout" class="sidebar-link">
                     <i class="fa-solid fa-person-walking-arrow-right"></i>
                     <span>Đăng xuất</span>
                 </a>

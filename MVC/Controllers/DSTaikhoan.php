@@ -141,7 +141,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
         if($kq){
             echo '<script>
             alert("Xóa thành công");
-            window.location.href = "http://QLHS/DSTaikhoan";
+            window.location.href = "http://QLHS - test/DSTaikhoan";
                 </script>';
     exit();
         }

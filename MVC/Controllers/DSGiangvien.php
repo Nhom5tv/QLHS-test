@@ -163,7 +163,7 @@ class DSGiangvien extends controller{
         if ($kq) {
             echo '<script>
                 alert("Xóa thành công");
-                window.location.href = "http://qlhs/DSGiangvien";
+                window.location.href = "http://QLHS - test/DSGiangvien";
             </script>';
             exit();
         } else {
@@ -206,7 +206,7 @@ class DSGiangvien extends controller{
             if ($kq) {
                 echo '<script>
                     alert("Sửa thành công");
-                    window.location.href = "http://qlhs/DSGiangvien";
+                    window.location.href = "http://QLHS - test/DSGiangvien";
                 </script>';
             } else {
                 echo '<script>alert("Sửa thất bại")</script>';

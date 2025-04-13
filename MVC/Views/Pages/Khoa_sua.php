@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sửa Thông Tin Khoa</title>
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css?v=<?php echo time();?>">
 </head>
 <body>
-    <form method="post" action="http://qlhs/DSKhoa/suadl">
+    <form method="post" action="http://QLHS - test/DSKhoa/suadl">
         <div class="content">
             <?php
             if (isset($data['dulieu']) && mysqli_num_rows($data['dulieu']) > 0) {

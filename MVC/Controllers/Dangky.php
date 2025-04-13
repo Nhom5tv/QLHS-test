@@ -21,7 +21,7 @@ class Dangky extends controller{
             $check=$this->dangky->checktrungemail($email);
             if($check){
                 echo'<script>alert("Email đã đăng ký");
-                window.location.href = "http://QLHS/Login";
+                window.location.href = "http://QLHS - test/Login";
                 </script>';
             }
             else{
@@ -40,7 +40,7 @@ class Dangky extends controller{
                     echo '<script>
                     alert("Đăng ký thất bại");
                 
-                    window.location.href = "http://QLHS/Dangky";
+                    window.location.href = "http://QLHS - test/Dangky";
                     </script>';
                     // hiện thị alert trc khi chuyển trang gọi lại link dang ky
                      exit();

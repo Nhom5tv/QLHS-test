@@ -27,7 +27,7 @@
             
             if($kq1){
                 echo'<script>alert("Trùng ID");
-                window.location.href = "http://qlhs/monhoc";
+                window.location.href = "http://QLHS - test/monhoc";
                 </script>';
                 
             }
@@ -36,7 +36,7 @@
             if($kq){
                 echo '<script>
                 alert("Thêm mới thành công");
-                window.location.href = "http://qlhs/monhoc";
+                window.location.href = "http://QLHS - test/monhoc";
                 </script>';
                 // hiện thị alert trc khi chuyển trang
     exit();

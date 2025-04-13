@@ -11,7 +11,7 @@
             padding-top: 5px;
         }
     </style>
-    <link rel="stylesheet" href="http://QLHS/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/dulieu.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <form id="myForm" method="post" action="./themmoi">
@@ -74,7 +74,7 @@
                 <button type="submit" class="btn" name="btnLuu">Lưu</button>
                 <br>
                 <div class="quaylai">
-                    <a href="http://QLHS/DSKhoanthu">Quay lại</a>
+                    <a href="http://QLHS - test/DSKhoanthu">Quay lại</a>
                 </div>
             </div>
         </div>

@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://QLHS - test/Public/CSS/button.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" type="text/css" href="http://QLHS - test/Public/CSS/styleDT.css">
     <style>
         .btn_cn {
             display: flex;
@@ -16,22 +16,22 @@
     </style>
 </head>
 <body>
-    <form method="post" action="http://qlhs/dsdkmonhoc/timkiem"></form>
+    <form method="post" action="http://QLHS - test/dsdkmonhoc/timkiem"></form>
     <main class="table" id="customers_table">
         <section class="table__header">
             <h1>Danh sách đăng ký môn học</h1>
             <div class="input-group">
-                <form action="http://qlhs/dsdkmonhoc/timkiem" method="post">        
+                <form action="http://QLHS - test/dsdkmonhoc/timkiem" method="post">        
                     <input type="search" placeholder="Mã Sinh Viên" name="txttkmasv" value="<?php if(isset($data['ma_sinh_vien'])) echo $data['ma_sinh_vien'] ?>">
             </div>
             <div class="input-group">
-                <form action="http://qlhs/dsdkmonhoc/timkiem" method="post">        
+                <form action="http://QLHS - test/dsdkmonhoc/timkiem" method="post">        
                     <input type="search" placeholder="Mã môn" name="txttkmamon" value="<?php if(isset($data['ma_mon'])) echo $data['ma_mon'] ?>">
             </div>
             <button style="border: none; background: transparent;" type="submit" name="btnTimkiem"><i class="fa fa-search" ></i></button>
             </form>  
             <div>
-            <form action="http://qlhs/qldkmonhoc/cancel" method="post">
+            <form action="http://QLHS - test/qldkmonhoc/cancel" method="post">
                                                 <button class="button-85" onclick="return confirm('Bạn có chắc muốn huỷ')" role="button" >Huỷ Tất Cả</button>
                                                </form>
             
@@ -69,11 +69,11 @@
                                     <td><?php echo $row['lich_hoc_du_kien'] ?></td>
                                     <td><?php echo $row['trang_thai'] ?></td>
                                     <!-- <td class="btn_cn">
-                                        <form action="http://qlhs/dsdkmonhoc/sua/<?php echo $row['ma_dang_ky'] ?>" method="post">
+                                        <form action="http://QLHS - test/dsdkmonhoc/sua/<?php echo $row['ma_dang_ky'] ?>" method="post">
                                             <button class="button-85" role="button">Sửa</button>
                                         </form>
 
-                                        <form action="http://qlhs/dsdkmonhoc/xoa/<?php echo $row['ma_dang_ky'] ?>" method="post">
+                                        <form action="http://QLHS - test/dsdkmonhoc/xoa/<?php echo $row['ma_dang_ky'] ?>" method="post">
                                             <button class="button-85" onclick="return confirm('Bạn có chắc muốn xóa')" role="button">Xóa</button>
                                         </form>
                                     </td> -->
