@@ -142,13 +142,13 @@ class DSdiemtungmon_gv extends controller {
             } catch (Exception $e) {
                 echo "<script>
                         alert('Có lỗi xảy ra khi xuất file Excel: {$e->getMessage()}');
-                        window.location.href = 'http://localhost/qlhs/DSdiemtungmon_gv';
+                        window.location.href = 'http://qlhs/DSdiemtungmon_gv';
                       </script>";
             }
         } else {
             echo "<script>
                     alert('Không tìm thấy mã lớp để xuất dữ liệu.');
-                    window.location.href = 'http://localhost/qlhs/DSdiemtungmon_gv';
+                    window.location.href = 'http://qlhs/DSdiemtungmon_gv';
                   </script>";
         }
     }

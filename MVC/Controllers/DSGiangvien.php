@@ -85,18 +85,18 @@ class DSGiangvien extends controller{
 
                 echo "<script>
                         alert('Upload thành công: {$successCount} hàng, thất bại: {$failCount} hàng.');
-                        window.location.href = 'http://localhost/qlhs/DSGiangvien';
+                        window.location.href = 'http://qlhs/DSGiangvien';
                       </script>";
             } catch (Exception $e) {
                 echo "<script>
                         alert('Có lỗi xảy ra khi xử lý file Excel: {$e->getMessage()}');
-                        window.location.href = 'http://localhost/qlhs/DSGiangvien';
+                        window.location.href = 'http://qlhs/DSGiangvien';
                       </script>";
             }
         } else {
             echo "<script>
                     alert('Không có file nào được chọn hoặc có lỗi trong quá trình tải lên.');
-                    window.location.href = 'http://localhost/qlhs/DSGiangvien';
+                    window.location.href = 'http://qlhs/DSGiangvien';
                   </script>";
         }
     }
@@ -148,7 +148,7 @@ class DSGiangvien extends controller{
         } catch (Exception $e) {
             echo "<script>
                     alert('Có lỗi xảy ra khi xuất file Excel: {$e->getMessage()}');
-                    window.location.href = 'http://localhost/qlhs/DSGiangvien';
+                    window.location.href = 'http://qlhs/DSGiangvien';
                   </script>";
         }
     }
@@ -163,7 +163,7 @@ class DSGiangvien extends controller{
         if ($kq) {
             echo '<script>
                 alert("Xóa thành công");
-                window.location.href = "http://localhost/qlhs/DSGiangvien";
+                window.location.href = "http://qlhs/DSGiangvien";
             </script>';
             exit();
         } else {
@@ -206,7 +206,7 @@ class DSGiangvien extends controller{
             if ($kq) {
                 echo '<script>
                     alert("Sửa thành công");
-                    window.location.href = "http://localhost/qlhs/DSGiangvien";
+                    window.location.href = "http://qlhs/DSGiangvien";
                 </script>';
             } else {
                 echo '<script>alert("Sửa thất bại")</script>';

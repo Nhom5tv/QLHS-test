@@ -72,18 +72,18 @@ class DSmonhoc extends controller {
 
                 echo "<script>
                         alert('Upload thành công: {$successCount} hàng, thất bại: {$failCount} hàng.');
-                        window.location.href = 'http://localhost/qlhs/DSmonhoc';
+                        window.location.href = 'http://qlhs/DSmonhoc';
                       </script>";
             } catch (Exception $e) {
                 echo "<script>
                         alert('Có lỗi xảy ra khi xử lý file Excel: {$e->getMessage()}');
-                        window.location.href = 'http://localhost/qlhs/DSmonhoc';
+                        window.location.href = 'http://qlhs/DSmonhoc';
                       </script>";
             }
         } else {
             echo "<script>
                     alert('Không có file nào được chọn hoặc có lỗi trong quá trình tải lên.');
-                    window.location.href = 'http://localhost/qlhs/DSmonhoc';
+                    window.location.href = 'http://qlhs/DSmonhoc';
                   </script>";
         }
     }
@@ -129,7 +129,7 @@ class DSmonhoc extends controller {
         } catch (Exception $e) {
             echo "<script>
                     alert('Có lỗi xảy ra khi xuất file Excel: {$e->getMessage()}');
-                    window.location.href = 'http://localhost/qlhs/DSmonhoc';
+                    window.location.href = 'http://qlhs/DSmonhoc';
                   </script>";
         }
     }
@@ -140,7 +140,7 @@ class DSmonhoc extends controller {
         if ($kq) {
             echo '<script>
                     alert("Xóa thành công");
-                    window.location.href = "http://localhost/qlhs/DSmonhoc";
+                    window.location.href = "http://qlhs/DSmonhoc";
                   </script>';
             exit();
         } else {

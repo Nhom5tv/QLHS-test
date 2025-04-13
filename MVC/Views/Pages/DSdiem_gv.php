@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/button.css?v=<?php echo time();?>">
-    <link rel="stylesheet" type="text/css" href="http://localhost/qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css?v=<?php echo time();?>">
+    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
     <style>
         .btn_cn {
             display: flex;
@@ -46,7 +46,7 @@
         <div class="Insert">
     <div class="flex-container">
         <!-- Select box -->
-        <form action="http://localhost/qlhs/DSdiemtungmon_gv" method="post" class="form-container">
+        <form action="http://qlhs/DSdiemtungmon_gv" method="post" class="form-container">
             <select name="class_id" class="select-class" onchange="this.form.submit()">
                 <option value="" disabled selected>Chọn lớp</option>
                 <?php
@@ -64,10 +64,10 @@
 
         <!-- Button "Xuất Excel" -->
         <?php if (isset($_POST['class_id']) || isset($_GET['class_id'])): ?>
-            <a href="http://localhost/qlhs/DSdiemtungmon_gv/exportExcel?class_id=<?= $_POST['class_id'] ?? $_GET['class_id'] ?>" class="button-85">Xuất Excel</a>
+            <a href="http://qlhs/DSdiemtungmon_gv/exportExcel?class_id=<?= $_POST['class_id'] ?? $_GET['class_id'] ?>" class="button-85">Xuất Excel</a>
         <?php endif; ?>
         <div class="input-group" style="margin-left: 150px;" > 
-            <form action="http://localhost/qlhs/DSdiemtungmon_gv/Get_data" method="post"> 
+            <form action="http://qlhs/DSdiemtungmon_gv/Get_data" method="post"> 
                 
                 <input type="hidden" name="class_id" value="<?php echo isset($_POST['class_id']) ? $_POST['class_id'] : ''; ?>">
 
@@ -116,7 +116,7 @@
                         <td><?php echo $row['diem_giua_ky']; ?></td>
                         <td><?php echo $row['diem_cuoi_ky']; ?></td>
                         <td class="btn_cn">
-                            <form action="http://localhost/qlhs/DSdiemtungmon_gv/sua/<?php echo $row['ma_dct']; ?>" method="post">
+                            <form action="http://qlhs/DSdiemtungmon_gv/sua/<?php echo $row['ma_dct']; ?>" method="post">
                                 <input type="hidden" name="class_id" value="<?php echo isset($_POST['class_id']) ? $_POST['class_id'] : ''; ?>">
                                 <button class="button-85" role="button">Sửa</button>
                             </form>

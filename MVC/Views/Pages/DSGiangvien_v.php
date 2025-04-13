@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quản lý sinh viên</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/button.css?v=<?php echo time();?>">
-    <link rel="stylesheet" type="text/css" href="http://localhost/qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css?v=<?php echo time();?>">
+    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
     <style>
         .btn_cn {
             display: flex;
@@ -23,7 +23,7 @@
             <h1>Quản lý Giảng viên</h1>
 
             <div class="input-group"> 
-            <form action="http://localhost/qlhs/DSGiangvien/timkiem" method="post">         
+            <form action="http://qlhs/DSGiangvien/timkiem" method="post">         
                 <input type="search" placeholder="Mã GV" name="txtTimkiemMaGV" value="<?php if(isset($data['ma_giang_vien'])) echo $data['ma_giang_vien']?>">
                                               
             </div>
@@ -33,12 +33,12 @@
             <button style="border: none; background: transparent;" type="submit" name="btnTimkiem"><i class="fa fa-search" ></i></button>
             </form>
             <div class="Insert">
-                <form action="http://localhost/qlhs/Giangvien" method="post">
+                <form action="http://qlhs/Giangvien" method="post">
                     <button class="button-85" role="button">Thêm giảng viên</button>
                 </form>
             </div>
             <div class="Upload">
-                <form action="http://localhost/qlhs/DSGiangvien/uploadExcel" method="post" enctype="multipart/form-data">
+                <form action="http://qlhs/DSGiangvien/uploadExcel" method="post" enctype="multipart/form-data">
                     <input type="file" name="txtFile">
                     <button class="button-85" role="button">Upload</button>
                 </form>
@@ -48,7 +48,7 @@
                 <input type="checkbox" id="export-file">
                 <div class="export__file-options">
                     <label>Export As &nbsp; &#10140;</label>
-                    <form action="http://localhost/qlhs/DSGiangvien/exportExcel" method="post">
+                    <form action="http://qlhs/DSGiangvien/exportExcel" method="post">
                         <button style="width: 176px;" name="btnXuatExcel">
                             <label for="export-file" id="toEXCEL">EXCEL <img src="./Public/Picture/imagesDT/excel.png" alt=""></label>
                         </button>
@@ -96,10 +96,10 @@
                                     <td><?php echo $row['so_dien_thoai']?></td>
                                     <td><?php echo $row['chuyen_nganh']?></td>
                                     <td class="btn_cn">
-                                        <form action="http://localhost/qlhs/DSGiangvien/sua/<?php echo $row['ma_giang_vien'] ?>" method="post">
+                                        <form action="http://qlhs/DSGiangvien/sua/<?php echo $row['ma_giang_vien'] ?>" method="post">
                                             <button class="button-85" role="button">Sửa</button>
                                         </form>
-                                        <form action="http://localhost/qlhs/DSGiangvien/xoa/<?php echo $row['ma_giang_vien'] ?>" method="post">
+                                        <form action="http://qlhs/DSGiangvien/xoa/<?php echo $row['ma_giang_vien'] ?>" method="post">
                                             <button class="button-85" onclick="return confirm('Bạn có chắc muốn xóa')" role="button">Xóa</button>
                                         </form>
                                     </td>

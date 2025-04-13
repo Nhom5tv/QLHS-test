@@ -30,7 +30,7 @@
             if($kq){
                 echo '<script>
                 alert("Thêm mới thành công");
-                window.location.href = "http://localhost/qlhs/dslichhoc";
+                window.location.href = "http://qlhs/dslichhoc";
                 </script>';
                 // hiện thị alert trc khi chuyển trang
     exit();
@@ -58,7 +58,7 @@
             if($kq){
                 echo '<script>
                 alert("Đã Đóng thành công");
-                window.location.href = "http://localhost/qlhs/dslichhoc";
+                window.location.href = "http://qlhs/dslichhoc";
                 </script>';
                 // hiện thị alert trc khi chuyển trang
     exit();

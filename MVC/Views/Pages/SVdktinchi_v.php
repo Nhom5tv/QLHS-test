@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
     <style >
         .btn_cn {
             display: flex;
@@ -19,7 +19,7 @@
 </head>
 
 <body style="display: block;">
-    <form method="post" action="http://localhost/qlhs/Svdktinchi/timkiem"></form>
+    <form method="post" action="http://qlhs/Svdktinchi/timkiem"></form>
     <!-- <script src="./Public/JS/datatable.js"></script> -->
     <div class="table-wrapper">
     <main class="table" id="customers_table">
@@ -27,7 +27,7 @@
             <h1>Đăng Ký Tín Chỉ</h1>
            
             <div class="input-group"> 
-            <form action="http://localhost/QLHS/Svdktinchi/timkiem" method="post">         
+            <form action="http://QLHS/Svdktinchi/timkiem" method="post">         
                 <input type="search" placeholder="Tên Môn Học" name="txtTimkiemmonhoc" value="<?php if(isset($data['ten_mon'])) echo $data['ten_mon_hoc']?>">
                                              
             </div>
@@ -40,7 +40,7 @@
             </form>
            
             <div >
-                <!-- <form action="http://localhost/qlhs/dslophoc/timkiem" method="post">
+                <!-- <form action="http://qlhs/dslophoc/timkiem" method="post">
                     <button type="submit" class="button-85" name="btnXuatExcel2">Xuất Excel</button>
                 </form> -->
             
@@ -94,7 +94,7 @@
                         <button class="button-85" disabled style="background-color: gray; cursor: not-allowed;">Đã Hết Chỗ</button>
                     <?php else : ?>
                         <!-- Nếu có thể đăng ký -->
-                        <form action="http://localhost/QLHS/svdktinchi/dk" method="post">
+                        <form action="http://QLHS/svdktinchi/dk" method="post">
                         
                             <input type="hidden" name="ma_mon_hoc" value="<?php echo $row['ma_mon_hoc']; ?>">
                             <input type="hidden" name="lich_hoc_du_kien" value="<?php echo $row['lich_hoc_du_kien']; ?>">
@@ -135,12 +135,12 @@
                     <button class="button-85" disabled style="background-color: gray; cursor: not-allowed;">Đã đăng ký</button>
                 <?php elseif (isset($row['con_lai']) && trim($row['con_lai']) == 0) :  ?>
                     <!-- Nếu chưa đăng ký -->
-                    <form action="http://localhost/QLHS/svdktinchi/dk" method="post">
+                    <form action="http://QLHS/svdktinchi/dk" method="post">
                         <button class="button-85" disabled style="background-color: gray; cursor: not-allowed;">Đã Hết Chỗ</button>
                     </form>
                     <?php else : ?>
                     <!-- Nếu chưa đăng ký -->
-                    <form action="http://localhost/QLHS/svdktinchi/dk" method="post">
+                    <form action="http://QLHS/svdktinchi/dk" method="post">
                         <!-- <input type="hidden" name="id_lich_hoc" value="<?php echo $row['id_lich_hoc']; ?>"> -->
                         <input type="hidden" name="ma_mon_hoc" value="<?php echo $row['ma_mon_hoc']; ?>">
                         <input type="hidden" name="lich_hoc_du_kien" value="<?php echo $row['lich_hoc_du_kien']; ?>">
@@ -169,7 +169,7 @@
     
            
             <div >
-                <!-- <form action="http://localhost/qlhs/dslophoc/timkiem" method="post">
+                <!-- <form action="http://qlhs/dslophoc/timkiem" method="post">
                     <button type="submit" class="button-85" name="btnXuatExcel2">Xuất Excel</button>
                 </form> -->
             
@@ -204,7 +204,7 @@
                     <td><?php echo $row['con_lai'] ?></td>
                     <td><?php echo $row['lich_hoc_du_kien'] ?></td>
                     <td class="btn_cn">
-                        <form action="http://localhost/qlhs/SVdktinchi/xoa/<?php echo $row['ma_dang_ky'] ?>" method="post">
+                        <form action="http://qlhs/SVdktinchi/xoa/<?php echo $row['ma_dang_ky'] ?>" method="post">
                             <button class="button-85" onclick="return confirm('Bạn có chắc muốn xóa')" role="button">Xóa</button>
                         </form>
                     </td>

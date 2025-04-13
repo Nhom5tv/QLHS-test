@@ -11,7 +11,7 @@
     padding-top: 5px;
 }
     </style>
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/dulieu.css">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/dulieu.css">
 </head>
 <body>
     <form id="myForm" method="post" action="./lophoc/themmoi">
@@ -122,7 +122,7 @@ if ($conn->connect_error) {
 <button type="submit" class="btn" name="btnLuu">Lưu</button>
                 <br>
                 <div class="quaylai">
-                <a href="http://localhost/QLHS/dslophoc">Quay lại</a>
+                <a href="http://QLHS/dslophoc">Quay lại</a>
                 </div>
                
                 </div>

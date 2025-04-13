@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://localhost/QLHS/Public/CSS/login.css?v=<?php echo time();?>">
-    <base href="http://localhost/QLHS/">
+    <link rel="stylesheet" href="http://QLHS/Public/CSS/login.css?v=<?php echo time();?>">
+    <base href="http://QLHS/">
     <style>
         .content{
             margin-top: 70px;

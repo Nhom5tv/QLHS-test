@@ -37,7 +37,7 @@
         if($kq){
             echo '<script>
             alert("Xóa thành công");
-            window.location.href = "http://localhost/qlhs/dslichhoc";
+            window.location.href = "http://qlhs/dslichhoc";
                 </script>';
     exit();
         }
@@ -67,7 +67,7 @@
             $kq=$this->dslhoc->lichhoc_upd($id_lich_hoc,$ma_mon_hoc, $so_luong,$so_luong_toi_da,$lich_hoc,$trang_thai);
             if($kq){
                 echo'<script>alert("Sửa thành công")
-                window.location.href = "http://localhost/qlhs/dslichhoc";
+                window.location.href = "http://qlhs/dslichhoc";
                 </script>';
             }
             else{

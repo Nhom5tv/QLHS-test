@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/qlhs/Public/CSS/styleDT.css">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css">
     <style >
         .btn_cn {
             display: flex;
@@ -18,13 +18,13 @@
 </head>
 
 <body>
-    <form method="post" action="http://localhost/qlhs/dslichhoc/timkiem"></form>
+    <form method="post" action="http://qlhs/dslichhoc/timkiem"></form>
     <main class="table" id="customers_table">
         <section class="table__header">
             <h1>Quản lý lịch học</h1>
            
             <div class="input-group"> 
-            <form action="http://localhost/qlhs/dslichhoc/timkiem" method="post">         
+            <form action="http://qlhs/dslichhoc/timkiem" method="post">         
                 <input type="search" placeholder="Mã Môn Học" name="txtTimkiemmamon" value="<?php if(isset($data['ma_mon_hoc'])) echo $data['ma_mon_hoc']?>">
                                              
             </div>
@@ -36,19 +36,19 @@
             <button style="border: none; background: transparent;" type="submit" name="btnTimkiemlich"><i class="fa fa-search" ></i></button>
             </form>
             <div class="Insert">
-                <form action="http://localhost/qlhs/lichhoc" method="post">
+                <form action="http://qlhs/lichhoc" method="post">
                 <button class="button-85" role="button">Thêm Lịch Học</button>
                 </form>
             
             </div>
             <div>
-            <form action="http://localhost/qlhs/lichhoc/dongall" method="post">
+            <form action="http://qlhs/lichhoc/dongall" method="post">
                                                 <button class="button-85" onclick="return confirm('Bạn có chắc muốn đóng')" role="button" >Đóng Tất Cả</button>
                                                </form>
             
                                                </div>
             <div >
-                <!-- <form action="http://localhost/qlhs/dslichhoc/timkiem" method="post">
+                <!-- <form action="http://qlhs/dslichhoc/timkiem" method="post">
                     <button type="submit" class="button-85" name="btnXuatExcel2">Xuất Excel</button>
                 </form> -->
             
@@ -89,10 +89,10 @@
                                            
                                            
                                             <td class="btn_cn">
-                                            <form action="http://localhost/qlhs/dslichhoc/sua/<?php echo $row['id_lich_hoc']?>" method="post">
+                                            <form action="http://qlhs/dslichhoc/sua/<?php echo $row['id_lich_hoc']?>" method="post">
                                                 <button class="button-85"  role="button">Sửa</button> &nbsp;
                                             </form>
-                                               <form action="http://localhost/qlhs/dslichhoc/xoa/<?php echo $row['id_lich_hoc']?>" method="post">
+                                               <form action="http://qlhs/dslichhoc/xoa/<?php echo $row['id_lich_hoc']?>" method="post">
                                                 <button class="button-85" onclick="return confirm('Bạn có chắc muốn xóa')" role="button" >Xóa</button>
                                                </form>
                                             </td>

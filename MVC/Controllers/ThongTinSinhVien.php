@@ -47,7 +47,7 @@ class ThongTinSinhVien extends controller {
             if ($updated) {
                 echo '<script>
             alert("Sửa thành công");
-            window.location.href = "http://localhost/qlhs/ThongTinSinhVien";
+            window.location.href = "http://qlhs/ThongTinSinhVien";
                 </script>';
             } else {
                 // Xử lý nếu có lỗi

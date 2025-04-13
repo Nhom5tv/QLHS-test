@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quản lý Điểm Học Tập</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://localhost/qlhs/Public/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost/qlhs/Public/CSS/styleDT.css?v=<?php echo time();?>">
+    <link rel="stylesheet" href="http://qlhs/Public/CSS/button.css">
+    <link rel="stylesheet" type="text/css" href="http://qlhs/Public/CSS/styleDT.css?v=<?php echo time();?>">
 
     <style>
         .btn_cn {

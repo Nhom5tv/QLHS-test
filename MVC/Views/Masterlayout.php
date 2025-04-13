@@ -9,10 +9,10 @@
     <title>quản lý hồ sơ sinh viên</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="http://localhost/qlhs/Public/Picture/favicon.png" type="image/png">
+    <link rel="icon" href="http://qlhs/Public/Picture/favicon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet"  href="http://localhost/qlhs/Public/CSS/layout.css?v=<?php echo time();?>">
+    <link rel="stylesheet"  href="http://qlhs/Public/CSS/layout.css?v=<?php echo time();?>">
     
 </head>
 
@@ -39,7 +39,7 @@
                     <ul id="QLTK" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 
                         <li class="sidebar-item">
-                            <a href="http://localhost/QLHS/ThongTinSinhVien" class="sidebar-link">Profile</a>
+                            <a href="http://QLHS/ThongTinSinhVien" class="sidebar-link">Profile</a>
                         </li>
 
                     </ul>
@@ -48,14 +48,14 @@
                
 
                 <li class="sidebar-item">
-                    <a href="http://localhost/qlhs/DSdiem" class="sidebar-link">
+                    <a href="http://qlhs/DSdiem" class="sidebar-link">
                     <i class="fa-solid fa-medal"></i>
                         <span>Tra cứu kết quả học tập</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="http://localhost/qlhs/Taichinh" class="sidebar-link">
+                    <a href="http://qlhs/Taichinh" class="sidebar-link">
                         <i class="fa-solid fa-coins"></i>
                         <span>Tài chính và học phí</span>
                     </a>
@@ -69,7 +69,7 @@
                     <ul id="QLHT" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
 
                         <li class="sidebar-item">
-                            <a href="http://localhost/QLHS/SVdktinchi" class="sidebar-link">Đăng ký tín chỉ</a>
+                            <a href="http://QLHS/SVdktinchi" class="sidebar-link">Đăng ký tín chỉ</a>
                         </li>
 
                        
@@ -83,7 +83,7 @@
             </ul>
             <!-- ảnh nhẫn menu -->
             <div class="sidebar-footer">
-                <a href="http://localhost/qlhs/Login/logout" class="sidebar-link">
+                <a href="http://qlhs/Login/logout" class="sidebar-link">
                     <i class="fa-solid fa-person-walking-arrow-right"></i>
                     <span>Đăng xuất</span>
                 </a>

@@ -9,10 +9,10 @@
     <title>quản lý hồ sơ sinh viên</title>
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="http://localhost/qlhs/Public/Picture/favicon.png" type="image/png">
+    <link rel="icon" href="http://qlhs/Public/Picture/favicon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet"  href="http://localhost/qlhs/Public/CSS/layout.css?v=<?php echo time();?>">
+    <link rel="stylesheet"  href="http://qlhs/Public/CSS/layout.css?v=<?php echo time();?>">
     
 </head>
 
@@ -29,19 +29,19 @@
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a href="http://localhost/qlhs/Trangchu_gv" class="sidebar-link">
+                    <a href="http://qlhs/Trangchu_gv" class="sidebar-link">
                         <i class="fa-solid fa-house"></i>
                         <span>Trang chủ</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="http://localhost/qlhs/Trangchu_gv" class="sidebar-link">
+                    <a href="http://qlhs/Trangchu_gv" class="sidebar-link">
                         <i class="fa-solid fa-user"></i>
                         <span>Quản lý tài khoản</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="http://localhost/qlhs/DSdiemtungmon_gv" class="sidebar-link">
+                    <a href="http://qlhs/DSdiemtungmon_gv" class="sidebar-link">
                     <i class="fa-solid fa-medal"></i>
                     <span>Quản lý điểm sinh viên</span>
                     </a>
@@ -49,7 +49,7 @@
             </ul>
             <!-- ảnh nhẫn menu -->
             <div class="sidebar-footer">
-                <a href="http://localhost/qlhs/Login/logout" class="sidebar-link">
+                <a href="http://qlhs/Login/logout" class="sidebar-link">
                     <i class="fa-solid fa-person-walking-arrow-right"></i>
                     <span>Đăng xuất</span>
                 </a>
